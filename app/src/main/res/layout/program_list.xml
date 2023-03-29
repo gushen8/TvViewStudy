@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:background="#00000000"
+  >
+
+    <TextView
+        android:id="@+id/channelId"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="6666666"
+        />
+
+    <TextView
+        android:id="@+id/channelTitle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="555555555555"
+        />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <color name="has_focus">#10C5BA</color>
+    <color name="no_focus">#000000</color>
+</resources>
