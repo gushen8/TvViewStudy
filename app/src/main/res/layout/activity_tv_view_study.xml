@@ -11,9 +11,7 @@
         android:id="@+id/tv_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-         />
-
+        android:layout_centerInParent="true" />
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -21,42 +19,42 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_marginStart="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:background="@color/no_focus"
+        android:descendantFocusability="afterDescendants"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071"
-        android:focusable="true"
-        android:descendantFocusability="afterDescendants"
-       >
+        app:layout_constraintVertical_bias="0.071">
 
     </androidx.recyclerview.widget.RecyclerView>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/track"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+    <customView.TrackCustomView
+        android:id="@+id/audioTrack"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#000000"
+        app:custom_item_text="audio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.323"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.079"
-        android:background="@drawable/recyclerview_border" />
+        app:layout_constraintVertical_bias="0.07" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/trackList"
-        android:layout_width="300dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="4dp"
+    <customView.TrackCustomView
+        android:id="@+id/subTitleTrack"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#000000"
+        app:custom_item_text="subTitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/track"
-        app:layout_constraintVertical_bias="0.0"
-        android:background="@drawable/recyclerview_border" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <declare-styleable name="CustomTrackAttrs">
+            <attr name="custom_item_text" format="string" />
+<!--            <attr name="custom_item_recyclerView" format="reference" />-->
+        </declare-styleable>
+    </resources>
+
