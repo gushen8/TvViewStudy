@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/recyclerview_border"
         android:gravity="center"
-
     />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -20,4 +19,6 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="#000000" />
+
+
 </LinearLayout>
