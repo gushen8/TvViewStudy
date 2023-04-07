@@ -19,8 +19,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat">
+        android:theme="@style/Theme.TvViewStudy">
 
+        <activity
+            android:name=".EPG"
+            android:exported="false" />
 
         <activity
             android:name=".TvViewStudy"

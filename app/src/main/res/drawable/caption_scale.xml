@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <scale android:scaleHeight="1.2"
+            android:scaleWidth="1.2"
+            android:drawable="@drawable/caption" />
+    </item>
+    <item>
+        <scale android:scaleHeight="1"
+            android:scaleWidth="1"
+            android:drawable="@drawable/caption" />
+    </item>
+</selector>
